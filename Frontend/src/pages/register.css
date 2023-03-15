@@ -1,0 +1,62 @@
+#registerForm{
+    padding: 5rem;
+    width: 30vw;
+    height: 20rem;
+    position: absolute;
+    border-radius: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 30vw;
+    top: 20vh;
+    /* text-align: center; */
+
+    /* glassmorphobic style */
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 5px 20px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+#login{
+    position: relative;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0.5rem;
+    left: 11rem;
+    align-items: center;
+    width: 4rem;
+    font-size: 1rem;
+}
+
+label{
+    color: aliceblue;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+input{
+    position: absolute;
+    left: 17rem;
+    border-radius: 3rem;
+    border: none;
+    width: auto;
+    height: 1.7rem;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#background_image{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    object-fit: cover;
+}

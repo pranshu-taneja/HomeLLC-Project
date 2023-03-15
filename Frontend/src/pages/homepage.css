@@ -1,0 +1,44 @@
+
+#logout{
+    position: absolute;
+    top: 2.8rem;
+    right: 5rem;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+
+    background-color: rgb(238, 238, 238);
+    border-radius: 1.3rem;
+    border: none;
+    padding: 0.5rem;
+    width: 7rem;
+}
+
+#username{
+    text-transform: capitalize;
+    margin: 0.5rem 0rem 0rem 0rem;
+    position: absolute;
+    top: 2.3rem;
+    right: 15%;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 1.3rem;
+    border: none;
+    padding: 0.5rem;
+    width: 9rem;
+}
+
+
+#background_image{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    object-fit: cover;
+}
+
