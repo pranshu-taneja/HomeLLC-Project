@@ -12,6 +12,16 @@ require('dotenv').config()
 app.use(cors());        //kind of bypasses same origin policy and let the browser use cross origin policy (for all domains in this code but you can set it up for specific domains only) (used by browser due to malicious websites trying access to other websites) 
 app.use(express.json());        //middleware to convert the coming json payloads (json objects) to json data (used by req.body)
 
+app.use(function (req, res, next) {                         //its to enable cors basically without this you won't get responses 
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    );
+    next();
+  });
+  
+
 try{
     // mongodb://localhost:27017/userdata
     mongoose.connect(`mongodb+srv://Pranshu:${process.env.MongoDbkey}@cluster0.fnurcsz.mongodb.net/?retryWrites=true&w=majority`).then(()=>{

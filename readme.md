@@ -1,29 +1,37 @@
+# Home LLC Project Readme
+
+
+This Project has all the specifications as per required by the assignment details:
+1. Web Page with login input fiels `Email` and `Password`
+
+1. New user can sign up by entering `Email`, `Password`, `First Name` and `Last Name`. 
+
+1. Details are matched with the database and is only redirected to the HomePage when successfully logged in. 
+
+1. After the details are matched successfully with the database a **JWT token** is created for login authentication system by the express server. which is then stored in the localStorage for further usage.
+
+1. The JWT token is then used to authenticate the user for every request made to the server. In my case it was used for fetching user's first and last name from the database on the **HOMEPAGE**
+
+1. The **HOMEPAGE** has a **LOGOUT** button which clears the localStorage and redirects the user to the login page.
+
+1. I have made both the horizontal and vertically functionality of navigation bars. You can toggle bw them by the **TOGGLE** button on the mid right corner.
 
 
 
+Here are some of the screenshots of the project:
 
-We’re excited to get to know you better. Your interview will be conducted in 3 stages.
-Stage 1: Assessment
-Stage 2: Technical Interview
-Stage 3: HR discussion
+# HomePage
+<a href="https://ibb.co/PwMJYgz"><img src="https://i.ibb.co/SRcHxB7/Homepage-hor.png" alt="Homepage-hor" border="0"></a>
 
-Stage 1 - Assessment Question.
 
-`1. Build a web page with a login form with two input fields:`
-- a. Email
-- b. Password
-Along with any other relevant elements.
 
-`2. The details input by the User should be matched against the details present in the Database.`
+# Login Page
+<a href="https://ibb.co/yp2jvPs"><img src="https://i.ibb.co/r39r80y/login.png" alt="login" border="0"></a><br /><a target='_blank' href='https://emoticoncentral.com/category/gaze'>gaze</a><br />
 
-`3. A new user should be able to sign up by entering Email, password, First and Last name. Their details should be saved in the DB.`
 
-`4. All emails should be unique in DB.`
+# Register Page
+<a href="https://ibb.co/HxBgr7T"><img src="https://i.ibb.co/GtnPV7Q/register.png" alt="register" border="0"></a>
 
-`5. After logging in, the user should be able to see the home page:`
-- a. Home page should have a top navigation bar with a search input field, logged in user first + last name (taken from DB), and a logout button
-- b. The home page should have a left navigation menu that should not move on scrolling vertically. (Refer the following site to understand more about the left navigation menu: home.llc/insights/us-states-and-metros-ranked )
+# HomePage Vertical navigation
+<a href="https://ibb.co/HzyfPzj"><img src="https://i.ibb.co/YkSFdkx/homepage-ver.png" alt="homepage-ver" border="0"></a>
 
-Database: NoSQL (e.g., MongoDB)
-Backend: Node.js
-Frontend: React/Redux
