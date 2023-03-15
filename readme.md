@@ -16,6 +16,10 @@ This Project has all the specifications as per required by the assignment detail
 
 1. I have made both the horizontal and vertically functionality of navigation bars. You can toggle bw them by the **TOGGLE** button on the mid right corner.
 
+1. You will need to do `npm install` in both the client and server folders to install all the dependencies.
+
+1. Then you will have to start both client and server by running `npm start` in both the folders terminal directory.
+
 
 
 Here are some of the screenshots of the project:
@@ -26,7 +30,7 @@ Here are some of the screenshots of the project:
 
 
 # Login Page
-<a href="https://ibb.co/yp2jvPs"><img src="https://i.ibb.co/r39r80y/login.png" alt="login" border="0"></a><br /><a target='_blank' href='https://emoticoncentral.com/category/gaze'>gaze</a><br />
+<a href="https://ibb.co/yp2jvPs"><img src="https://i.ibb.co/r39r80y/login.png" alt="login" border="0"></a><br />
 
 
 # Register Page
